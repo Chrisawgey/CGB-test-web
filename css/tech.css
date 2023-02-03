@@ -268,7 +268,7 @@ h1 {
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #355e8c;
+    background-color: #d1e8ff;
     z-index: 1;
     width: 100%;
     max-width: 1300%;
@@ -276,10 +276,10 @@ h1 {
 }
 .main__content{
     display: block;
-    margin: auto auto;
+    margin: 5% auto;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    color: rgb(100, 99, 65);
 }
 .main__content h1 {
     font-size: 100px;
@@ -289,5 +289,19 @@ h1 {
     display: block;
     margin: 10px auto;
     text-decoration: none;
-    padding: 1.3em;
+    padding: 3px;
+}
+
+/* hero secion finished */ 
+
+/* ring section */
+.ring-container{
+    display: flex;
+    width: 1000px;
+    text-align: center;
+    align-items: center;
+   justify-content: space-around;
+}
+#main-ring-img{
+    width: 20em;
 }
