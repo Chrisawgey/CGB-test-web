@@ -253,7 +253,9 @@
 
 
 /* hero begin  */
-
+a {
+    text-decoration: none;
+}
 h1 {
     /* font-size: 72px;
     background: linear-gradient(#eee, #333);
@@ -286,4 +288,6 @@ h1 {
 .main__btn{
     display: block;
     margin: 10px auto;
+    text-decoration: none;
+    padding: 1.3em;
 }
