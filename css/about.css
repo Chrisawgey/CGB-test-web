@@ -127,7 +127,7 @@
     }
 
     .navbar__menu.active {
-        background: #1e2c37;
+        background: rgba(23, 60, 99, 0.922);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
