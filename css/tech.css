@@ -1,3 +1,7 @@
+html{
+    height: 100%;
+    background-color: #4d6579;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -178,7 +182,7 @@
     }
 
     .navbar__menu.active {
-        background: #1e2c37;
+        background: rgba(23, 60, 99, 0.922);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -247,8 +251,12 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
+   
+
 
 }
+
+
 /* navbar end */
 
 
@@ -261,25 +269,24 @@ h1 {
     background: linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-  }
+}
+
   .main__container{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
-    background-color: #d1e8ff;
     z-index: 1;
     width: 100%;
-    max-width: 1300%;
+    height: 100%;
     padding: 0 50px;
 }
 .main__content{
     display: block;
     margin: 5% auto;
+    width: 100%;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(100, 99, 65);
+    color:#c4dcf0;
 }
 .main__content h1 {
     font-size: 100px;
@@ -297,11 +304,42 @@ h1 {
 /* ring section */
 .ring-container{
     display: flex;
-    width: 1000px;
     text-align: center;
     align-items: center;
    justify-content: space-around;
+   margin: 0 25%;
+   
 }
 #main-ring-img{
     width: 20em;
+}
+
+/* to be continued */ 
+div.ring-images-containers{
+    margin: 5em auto;
+    display: flex;
+    justify-content: space-around;
+}
+div.ring-img-wrapper{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.ring-img{
+    object-fit: contain;
+    width: 20em;
+    height: 20em;
+}
+
+
+/* end of ring section */ 
+
+
+
+@media screen and (max-width: 480px){
+    div.ring-container{
+        display: block;
+    }
+
 }
