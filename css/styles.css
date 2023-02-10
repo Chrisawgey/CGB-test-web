@@ -29,8 +29,8 @@
 } 
 
 #navbar__logo {
-    background-color: #171b3c;
-    background-image: linear-gradient(to top, #dbdbdb 0%, #167983 100%);
+    background-color: #229630;
+    background-image: linear-gradient(to top, #163b34 0%, #b93d0c 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -92,12 +92,12 @@
 }
 
 .button:hover {
-    background: #8d95c0;
+    background: #053d2f;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #495888;
+    color: #053d2f;
     transition: all 0.3s ease;
 }
 
@@ -127,7 +127,7 @@
     }
 
     .navbar__menu.active {
-        background: rgba(23, 60, 99, 0.922);
+        background: rgba(19, 22, 47, 0.922);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -169,7 +169,7 @@
     .navbar__btn{
         padding-bottom: 2rem;
     }
-
+    
     .button{
         display: flex;
         justify-content: center;
@@ -211,7 +211,7 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #355e8c;
+    background-color: #0c1015;
     z-index: 1;
     width: 100%;
     max-width: 1300%;
@@ -353,7 +353,7 @@
 
 /* Serivices css */
 .services {
-    background-color: #375f8d;
+    background-color: #0c1015;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -363,12 +363,12 @@
 .services h1 {
     background-color: #7a88a2fb;
     background-image: linear-gradient(to right,
-     #161f42 10%,
-     #1b217f 15%, 
-     #2b5670 21%, 
-     #12211a 52%, 
-     #2f2f4b 78%, 
-     #040540 100%
+     #776051 10%,
+     #2a521f 15%, 
+     #615b34 21%, 
+     #867d37 52%, 
+     #155934 78%, 
+     #776051 100%
     );
     background-size: 100%;
     margin-bottom: 5rem;
