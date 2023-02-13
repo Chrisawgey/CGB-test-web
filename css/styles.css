@@ -5,6 +5,10 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #down {
     margin-top: 0%;
     padding-bottom: 0%;
