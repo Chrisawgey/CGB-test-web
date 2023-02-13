@@ -5,6 +5,11 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+#down {
+    margin-top: 0%;
+    padding-bottom: 0%;
+   } 
+
 .navbar {
     background: #1e2c37;
     height: 80px;
@@ -591,3 +596,4 @@ left: 30px;
         width: 100%;
     }
 }
+
