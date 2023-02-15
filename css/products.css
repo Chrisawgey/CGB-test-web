@@ -49,3 +49,24 @@ header {
     }
   }
   
+  .main__btn {
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #383746 0%, #281aa4 100%);
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+  }
+
+  .main__btn a {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    color: #0d5f1c;
+    text-decoration: none
+  }
